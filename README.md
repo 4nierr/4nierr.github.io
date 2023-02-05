@@ -9,7 +9,7 @@ In this project, I created two webmaps that displayed data from the New York Tim
 
 #### Map 1 (Choropleth)
 
-The choropleth map showed Covid rates by Census tract. Rates are defined by the total number of cases divided by 1000 residents. The higher the rate of Covid cases, the darker the color of the Census Tract. The map was created using Mapbox Studio and was further developed using Mapbox JS and html. Census tract shapes were provided from the United States Census Bureau. 
+The choropleth map showed Covid rates by Census tract. Rates are defined by the total number of cases divided by 1000 residents. The higher the rate of Covid cases, the darker the color of the Census Tract. The map was created using Mapbox Studio and was further developed using Mapbox JS and html. Census tract shapes were provided from the United States Census Bureau. Despite my best efforts, using both class tutorials, as well as tutorials from Mapbox, I could not implement a interactive feature that would show the case number by state when hovering over a state.
 
 [Map 1 Link](https://4nierr.github.io/map1.html)
 
