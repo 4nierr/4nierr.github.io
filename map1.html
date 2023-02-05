@@ -96,7 +96,8 @@
             container: 'map', // container ID
             style: 'mapbox://styles/rfourn/cldqr2u79003r01myabtsb4q5', // style URL
             zoom: 3, // starting zoom
-            center: [-100, 40] // starting center
+            center: [-100, 40],
+            projection: 'albers' // projection
         });
         async function geojsonFetch() {
             // other operations
@@ -139,6 +140,7 @@
                         'fill-opacity': 0.7,
                     }
                 });
+                
             });
             const layers = [
                 '0-4.492',
